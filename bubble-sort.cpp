@@ -21,10 +21,11 @@ BubbleSort::sort(int A[], int size)			// main entry point
 	 {
 		 if(A[q]>A[q+1])
 		 {
+			 num_cmps++;
 			 int holder=A[q];
 			 A[q]=A[q+1];
 			 A[q+1]=holder;
-			IsSorted=true; 
+			 IsSorted=true; 
 		 }
 		 if(IsSorted=false)
 		 {
