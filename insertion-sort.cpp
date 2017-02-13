@@ -20,6 +20,7 @@ void InsertionSort::sort(int A[], int size)				// main entry point
         
         while (j>0 && A[j] < A[j-1]) {
             temp = A[j];
+            num_cmps++;
             A[j] = A[j-1];
             A[j-1] = temp;
             j--;
