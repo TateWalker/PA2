@@ -24,6 +24,8 @@ ShellSort::sort(int A[], int size)
 
                 temp = A[j];
 
+                num_cmps++;
+
                 A[j] = A[j+step];
 
                 A[j+step] = temp;
