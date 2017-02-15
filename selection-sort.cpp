@@ -1,6 +1,8 @@
 //============================================================================
 // Name        : selection-sort.cpp
 // Author      : Salman Mithani
+// Author      : 
+
 // Date        :
 // Copyright   : 
 // Description : Implementation of selection sort in C++
@@ -26,5 +28,6 @@ SelectionSort::sort(int A[], int size)				// main entry point
 		A[k] = A[index];
 		A[index] = tmp;
 	}
+
 
 }
