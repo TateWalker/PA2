@@ -10,15 +10,6 @@
 //============================================================================
 
 #include "sort.h"
-
-void
-InsertionSort::sort(int A[], int size)				// main entry point
-{
-
-//using namespace std;
-
-
-
 void InsertionSort::sort(int A[], int size)				// main entry point
 {
     int j;
@@ -34,20 +25,4 @@ void InsertionSort::sort(int A[], int size)				// main entry point
             j--;
         }
     }
-    
-    
- 
-  /* Complete this function with the implementation of insertion sort algorithm 
-  Record number of comparisons in variable num_cmps of class Sort
-  */
 }
- 
-
-//
-//int main(){
-//    int A[5] = {4,5,3,2,6};
-//    int B = InsertionSort(A, 5);
-//    std::cout<<B;
-//    
-//}
- 
