@@ -9,7 +9,7 @@
 #include "sort.h"
 #include <iostream>
 
-<<<<<<< HEAD
+
 int getMax(int A[], int size)
 {
     int max = A[0];
@@ -43,13 +43,3 @@ RadixSort::sort(int A[], int size)
     for (int exp = 1; m / exp > 0; exp *= 10)
         countSort(A, size, exp);
 }
-=======
-void
-RadixSort::sort(int A[], int size)
-{
-  /*
-     Complete this function with the implementation of radix sort
-     algorithm.
-  */
-}
->>>>>>> insertion
