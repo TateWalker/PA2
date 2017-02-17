@@ -27,7 +27,7 @@ BubbleSort::sort(int A[], int size)			// main entry point
 			 A[q+1]=holder;
 			 IsSorted=true; 
 		 }
-		 if(IsSorted=false)
+		 if(IsSorted==false)
 		 {
 			break;
 		 }
