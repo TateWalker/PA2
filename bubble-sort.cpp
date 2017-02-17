@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : bubble-sort.cpp
-// Author      : 
+// Author      : Lysander Gutierrez
 // Date        :
 // Copyright   : 
 // Description : Implementation of bubble sort in C++
