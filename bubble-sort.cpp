@@ -25,18 +25,14 @@ BubbleSort::sort(int A[], int size)			// main entry point
 			 int holder=A[q];
 			 A[q]=A[q+1];
 			 A[q+1]=holder;
-			 IsSorted=false; 
+			 IsSorted=true; 
 		 }
-		 else
+		 if(!IsSorted)
 		 {
 			 num_cmps++;
-			 IsSorted=false;
+			 IsSorted=true;
 		 }
 		 
-		 if(IsSorted==true)
-		 {
-			break;
-		 }
 	 }
  }
   
