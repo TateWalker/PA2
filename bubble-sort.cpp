@@ -30,7 +30,7 @@ BubbleSort::sort(int A[], int size)			// main entry point
 		 else
 		 {
 			 num_cmps++;
-			 IsSorted=true;
+			 IsSorted=false;
 		 }
 		 
 		 if(IsSorted==true)
