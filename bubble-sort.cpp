@@ -27,6 +27,12 @@ BubbleSort::sort(int A[], int size)			// main entry point
 			 A[q+1]=holder;
 			 IsSorted=false; 
 		 }
+		 else
+		 {
+			 num_cmps++;
+			 IsSorted=true;
+		 }
+		 
 		 if(IsSorted==true)
 		 {
 			break;
