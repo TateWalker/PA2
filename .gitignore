@@ -4,3 +4,4 @@ PA2.xcworkspace/
 xcuserdata/
 .DS_Store
 *.o/
+.bash_profile/
